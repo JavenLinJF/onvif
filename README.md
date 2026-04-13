@@ -2,7 +2,7 @@
 
 ## 安装
 
-```cmake
+```
 sudo apt update
 sudo apt install -y \
     libcurl4-openssl-dev \
@@ -17,15 +17,20 @@ sudo apt install -y \
 
 ## 编译
 
-```cd /home/javen/example/onvif
+```
+cd /home/javen/example/onvif
 mkdir -p build
 cd build
 cmake ..
 make -j$(nproc)
+
 ```
 
 ## 运行
-```./onvif_demo
+
+```
+./onvif_demo
+
 ```
 
 ## 输出结果
